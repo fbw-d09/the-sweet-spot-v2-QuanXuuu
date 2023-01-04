@@ -1,0 +1,113 @@
+
+* 
+{
+    box-sizing: border-box;
+}
+
+#main-header-image,
+#contact-header-image
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+h1 
+{
+    background-color: #f58ea0;
+    color: #dfc9cc;
+} 
+
+h2 
+{
+    background-color:#dad8d8;
+    color: #ee2dee;
+}
+
+#contact-title
+{
+    background-color: white;
+    color: black;
+}
+
+#main-topic-text 
+{
+    background-color: #ff69b5;
+}
+
+h3 
+{
+    background-color: #ebf64d;
+}
+
+.subtopic:hover 
+{
+    color:#1ed7f0;
+}
+
+#treats-text2
+{
+    text-align: justify;
+}
+
+a img
+{
+    width: 130px;
+    height: 100px;
+    object-fit: fill;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#lollipop
+{
+    border: 5px solid #ebf64d;
+    float: left;
+    margin-right: 1em;
+}
+
+#candy-floss
+{
+    border: 5px solid #1ed7f0;
+    float: right;
+    margin-left: 1em;
+}
+
+#jellybean
+{
+    border: 5px solid #ff69b5;
+    float: left;
+    margin-right: 1em;
+}
+
+ul 
+{
+    list-style-type: none;
+    background-color: #1ed7f0;
+    color:#561a8b;
+}
+
+ul:hover 
+{
+    background-color: #ebf64d;
+}
+
+#web-links li a:active 
+{
+    background-color: #ee2dee;
+    color:#561a8b;
+}
+
+#contact-list {
+    list-style-type: circle;
+}
+
+#droplinelink:visited 
+{
+   color: #20d7f0;   
+}
+
+#backlink:visited 
+{
+ color: #ee2dee;
+}
